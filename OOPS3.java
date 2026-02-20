@@ -1,0 +1,20 @@
+
+public class OOPS3 {
+    public static void main(String[] args) {
+        Account acc =new Account();
+        acc.setBalance(100000);
+        System.out.println(acc.getBalance());
+    }
+    
+}
+class Account{
+    //data member
+    int balance;
+     //function/method
+    public int getBalance(){
+        return balance;
+    }
+    public void setBalance(int balance){
+        this.balance=balance;
+    }
+}
